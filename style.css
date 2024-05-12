@@ -1,0 +1,75 @@
+.navbar {
+    background: rgb(246,246,233);
+}
+.logo {
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+    background: rgb(246,246,233);
+    background: linear-gradient(146deg, rgba(246,246,233,1) 0%, rgba(246,246,233,1) 99%);
+}
+.logo-name {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+body {
+    background: rgb(24,69,59);
+    background: linear-gradient(90deg, rgba(24,69,59,1) 13%, rgba(9,121,98,1) 48%, rgba(218,221,152,1) 98%);
+}
+
+.container {
+    max-width: 955px;
+    background-color: #D0F0C0;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: scroll;
+    margin-bottom: 23px;
+    margin-top: 10px;
+}
+
+.message {
+    width: 24%;
+    padding: 10px;
+    margin: 17px 3px;
+    border-radius: 4px;
+}
+
+.left {
+    background-color: #006A4E;
+    border: 2px solid #ACE1AF;
+    float: left;
+    clear: both;
+}
+
+.right {
+    background-color: #ACE1AF;
+    border: 2px solid #006A4E ;
+    float: right;
+    clear: both;
+}
+
+#send-container {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 981px;
+    width: 100%;
+}
+
+#messageInp {
+    width: 92%;
+    border: 2px solid #D0F0C0;
+    /* border-radius: 3px; */
+    height: 34px;
+}
+
+.btn {
+    cursor: pointer;
+    border: 2px solid #006A4E;
+    border-radius: 3px;
+    height: 34px;
+}
